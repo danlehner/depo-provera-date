@@ -3,6 +3,7 @@ document.addEventListener('touchstart', function addtouchclass(e) {
   document.removeEventListener('touchstart', addtouchclass, false) 
 }, false)
 
+console.log("hi);
 
 const sendBox = $("#send-button"); 
 const printBox = $("#print-box"); 
