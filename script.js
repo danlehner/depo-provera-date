@@ -3,9 +3,10 @@ document.addEventListener('touchstart', function addtouchclass(e) {
   document.removeEventListener('touchstart', addtouchclass, false) 
 }, false)
 
-console.log("hi");
-
+$( document ).ready(function() {
 const sendBox = $("#send-button"); 
+  
+console.log(sendBox.html()) 
 const printBox = $("#print-box"); 
 const errorBox = $("#error-box"); 
 
@@ -22,6 +23,8 @@ errorBox.html("")
 sendBox.blur(); 
 }
 })
+});
+
 
 
 
