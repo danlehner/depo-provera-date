@@ -1,121 +1,111 @@
-
 body {
   background-color: #ec89b8;
- }
- 
- h1 {
-   font-size: 50px; 
- }
- 
- p {
-   font-size: 26px; 
-   margin: 0;
- }
- 
- #person-icon {
-   background-color: #f9c92a;
-   border-radius: 50%; 
- }
- 
- #callen-logo {
-   position: fixed; 
-   width: 200px; 
- }
- 
- #lrg-cont {
-   background-color: #82cfcb;
-   font-family: rubik, Arial; 
-   margin-top: 20px; 
-   padding: 20px;
-   margin: 0 auto; 
-   border: 1px solid black; 
-   width: 50vw;
-   text-align: center; 
- }
- 
- .med-cont {
-   padding: 10px 25px; 
-   margin: 0 auto; 
-   text-align: center;
- }
- 
- #data-box {
-   display: flex; 
-   justify-content: center;
-   margin-top: 20px; 
- }
- 
- input {
-   border: none; 
-   font-family: rubik;
-   font-size: 20px; 
-   text-align: center;
- }
- 
- #send-button {
-   color: white; 
-   text-align: center;
-   vertical-align: middle; 
-   border-radius: 50%; 
-   width: 100px; 
-   height: 100px; 
-   font: rubik, Arial; 
-   font-weight: bold; 
-   font-size: 50px;
-   line-height: 100px; 
-   margin: 20px auto; 
-   background-color: #ec89b8;
-   transition: 0.3s;
- }
- 
- 
- #send-button:hover {
-   background-color: white;
-   color: #ec89b8;
-   cursor: pointer;
- }
- 
- html.can-touch #send-button:hover{
-   background-color: #ec89b8;
-   color: white;
- }
- 
- #send-button:focus {
-   outline: none; 
- }
- 
- #error-box {
-   color: red;
- }
- 
- #print-box {
-   max-width: 100px; 
- }
- 
- @media only screen and (max-width: 767px) {
-   #callen-logo {
-     display: none; 
-   }
-   
-   #lrg-cont {
-     width: 75%; 
-     margin-top: 50px;
-   }
-   
-   h1 {
-     font-size: 28px; 
-   }
-   
-   .paragraph-text {
-     font-size: 18px;
-   }
-   
-    #data-box {
-     margin-top: 25px; 
-   }
-   
-   .med-cont {
-   padding:  0px; 
-   }
- }
- 
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 26px;
+  margin: 0;
+}
+
+#person-icon {
+  background-color: #f9c92a;
+  border-radius: 50%;
+}
+
+#callen-logo {
+  position: fixed;
+  width: 200px;
+}
+
+#lrg-cont {
+  background-color: #82cfcb;
+  font-family: rubik, Arial;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 50vw;
+  text-align: center;
+}
+
+.med-cont {
+  padding: 10px 25px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#data-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  font-family: rubik;
+  font-size: 20px;
+  text-align: center;
+}
+
+#send-button {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font: rubik, Arial;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 100px;
+  margin: 20px auto;
+  background-color: #ec89b8;
+  transition: 0.3s;
+}
+
+#send-button:hover {
+  background-color: white;
+  color: #ec89b8;
+  cursor: pointer;
+}
+
+html.can-touch #send-button:hover {
+  background-color: #ec89b8;
+  color: white;
+}
+
+#send-button:focus {
+  outline: none;
+}
+
+#print-box {
+  max-width: 100px;
+}
+
+@media screen and (max-width: 767px) {
+
+  #lrg-cont {
+    width: 80vw;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .paragraph-text {
+    font-size: 18px;
+  }
+
+  #data-box {
+    margin-top: 25px;
+  }
+
+  .med-cont {
+    padding: 0px;
+  }
+}
