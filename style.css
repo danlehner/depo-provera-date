@@ -1,5 +1,5 @@
 body {
-  background-color: #ec89b8;
+  background-color: #e87047;
 }
 
 h1 {
@@ -9,16 +9,6 @@ h1 {
 p {
   font-size: 26px;
   margin: 0;
-}
-
-#person-icon {
-  background-color: #f9c92a;
-  border-radius: 50%;
-}
-
-#callen-logo {
-  position: fixed;
-  width: 200px;
 }
 
 #lrg-cont {
@@ -63,18 +53,18 @@ input {
   font-size: 50px;
   line-height: 100px;
   margin: 20px auto;
-  background-color: #ec89b8;
+  background-color: #e87047;
   transition: 0.3s;
 }
 
 #send-button:hover {
   background-color: white;
-  color: #ec89b8;
+  color: #e87047;
   cursor: pointer;
 }
 
 html.can-touch #send-button:hover {
-  background-color: #ec89b8;
+  background-color: #e87047;
   color: white;
 }
 
@@ -87,7 +77,6 @@ html.can-touch #send-button:hover {
 }
 
 @media screen and (max-width: 767px) {
-
   #lrg-cont {
     width: 80vw;
     margin-top: 20px;
